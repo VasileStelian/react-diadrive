@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Jost', sans-serif;
+}
+
+@font-face {
+  font-family: 'Jost';
+  src: local('Jost'), url(./assets/fonts/Jost-Medium.ttf) format('truetype');
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
