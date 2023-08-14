@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/react-diadrive/static/css/main.bb6a0dd8.css",
+    "main.js": "/react-diadrive/static/js/main.eca71825.js",
+    "static/js/787.28cb0dcd.chunk.js": "/react-diadrive/static/js/787.28cb0dcd.chunk.js",
+    "static/media/categbe-min.png": "/react-diadrive/static/media/categbe-min.a3b6e88ee9a612695cea.png",
+    "static/media/golf-min.png": "/react-diadrive/static/media/golf-min.42b4764c98daad5d4890.png",
+    "static/media/golf7-min.png": "/react-diadrive/static/media/golf7-min.f95a74eb7810fd4c8a59.png",
+    "static/media/Sediu-min.png": "/react-diadrive/static/media/Sediu-min.3260dcb01279f24cc586.png",
+    "static/media/seria1-min.png": "/react-diadrive/static/media/seria1-min.aaf30d4619dbc89da40a.png",
+    "static/media/autobuz-min.png": "/react-diadrive/static/media/autobuz-min.ba87cbc0518723fcfa64.png",
+    "static/media/16ani-min.png": "/react-diadrive/static/media/16ani-min.47a95bd226c3759104be.png",
+    "static/media/fiesta-min.png": "/react-diadrive/static/media/fiesta-min.fc01761e596eca1efc32.png",
+    "static/media/kia-min.png": "/react-diadrive/static/media/kia-min.587611be686fc7546875.png",
+    "static/media/mercedes-min.png": "/react-diadrive/static/media/mercedes-min.23dad9af37eb6684860a.png",
+    "static/media/x1-min.png": "/react-diadrive/static/media/x1-min.955614a64959ec78f86b.png",
+    "static/media/Jost-Medium.ttf": "/react-diadrive/static/media/Jost-Medium.6b59eccdfbb145802814.ttf",
+    "static/media/user-2.png": "/react-diadrive/static/media/user-2.814f3ba73efe10b34b02.png",
+    "static/media/user-1.png": "/react-diadrive/static/media/user-1.b0b1409ccacb2fda0184.png",
+    "static/media/placeholderuser.png": "/react-diadrive/static/media/placeholderuser.46172f25b3c3f98cb0d2.png",
+    "static/media/user-3.png": "/react-diadrive/static/media/user-3.a547be21ac2b4285e138.png",
+    "static/media/slick.svg": "/react-diadrive/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/react-diadrive/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/react-diadrive/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/react-diadrive/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/react-diadrive/index.html",
+    "main.bb6a0dd8.css.map": "/react-diadrive/static/css/main.bb6a0dd8.css.map",
+    "main.eca71825.js.map": "/react-diadrive/static/js/main.eca71825.js.map",
+    "787.28cb0dcd.chunk.js.map": "/react-diadrive/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb6a0dd8.css",
+    "static/js/main.eca71825.js"
+  ]
+}
