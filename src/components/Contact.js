@@ -1,29 +1,9 @@
-import React, { useRef } from "react";
+import React from "react";
 import placeholder from '../assets/images/placeholderuser.png'
 import FAQ from "./FAQ";
-import emailjs from "@emailjs/browser";
-
-
-
-
 
 
 const Contact = () => {
-
-  const form = useRef();
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-  };
-
-
     return (
 <div className="pt-10">
   <div className="max-w-5xl m-auto pl-6 pr-6">
@@ -34,20 +14,21 @@ const Contact = () => {
   <div className="flex flex-row justify-around flex-wrap">
     <div className="pb-6 flex flex-col items-center justify-around max-w-sm m-auto">
       <div className="basis-1/3 min-w-300 mb-8 bg-gradient-to-b from-gray-600 p-4 transition ease-linear duration-500 hover:bg-black hover:text-white hover:shadow-md hover:shadow-slate-700 shadow-xl rounded-md">
-      <form onSubmit={handleSumbit} className="w-full">
+      <form className="w-full">
     <label className="text-left">Nume si Prenume</label>
-    <input type="text" name="name" value={formData.name} onChange={handleChange} className="w-full mt-1 h-7 resize-none text-black indent-1 rounded-md"></input>
+    <textarea className="w-full mt-1 h-7 resize-none text-black indent-1 rounded-md"></textarea>
 
     <label>E-mail</label>
-    <input type="text" name="email" value={formData.email} onChange={handleChange} className="w-full mt-1 h-7 resize-none text-black indent-1 rounded-md"></input>
+    <textarea className="w-full mt-1 h-7 resize-none text-black indent-1 rounded-md"></textarea>
 
+    <label>Telefon Mobil</label>
+    <textarea className="w-full mt-1 h-7 resize-none text-black indent-1 rounded-md"></textarea>
 
     <label>Mesaj</label>
-    <input type="text" name="message" value={formData.message} onChange={handleChange} className="w-full mt-1 resize-none h-40 text-black indent-1 rounded-md"></input>
-
-    <button type="submit" className="flex mb-8 bg-gradient-to-b from-gray-600 p-4 transition ease-linear duration-500 hover:bg-black hover:text-white hover:shadow-md hover:shadow-slate-700 shadow-slate-500 shadow-xl rounded-md">Trimite</button>
+    <textarea className="w-full mt-1 resize-none h-40 text-black indent-1 rounded-md"></textarea>
   </form>
       </div>
+      <button className="flex mb-8 bg-gradient-to-b from-gray-600 p-4 transition ease-linear duration-500 hover:bg-black hover:text-white hover:shadow-md hover:shadow-slate-700 shadow-slate-500 shadow-xl rounded-md">Trimite</button>
     </div>
     <div className="pb-6 items-center max-w-sm m-auto">
   <div className="mb-8 flex-row bg-gradient-to-b from-gray-600 p-4 transition ease-linear duration-500 hover:bg-black hover:text-white hover:shadow-md hover:shadow-slate-700 shadow-xl rounded-md">
